@@ -1,0 +1,352 @@
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(236, 236, 236, 0.952);
+}
+
+.width
+{
+    width: 100%;
+    background-color: white; important: !important
+}
+li
+{
+    display: inline-flex;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    
+}
+
+  .three
+{
+   width: 200px;
+   text-align: center;
+   padding-top: 15px;
+   
+}
+.one
+{
+    width: 200px;
+    padding-block-end: 10px;
+    
+}
+
+
+
+.two{
+    MAX-width: 500px;
+    min-width: 50PX;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+/* 
+.one
+{
+    flex: 1;
+}
+.two
+{
+    flex: 2;
+}
+.three
+{
+    flex: 1;
+} */
+
+
+
+.mains
+{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+  
+    box-shadow: rgba(236, 236, 236, 0.952);
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+ol
+{
+    display: inline-block;
+    text-transform: capitalize;
+    flex-direction: row;
+    
+ 
+}
+
+ol >li >a:hover
+{
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+}
+
+ol >li > a{
+    padding: 5px 20px 5px 20px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.nav1
+{  
+/* flex: 1; */
+}
+
+.nav2
+{  
+/* flex: 2; */
+text-align: end;
+}
+
+
+marquee
+{
+  
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+.mar
+{
+    width: 95%;
+   align-items: center;
+   margin: auto;
+   height: 40px;
+    
+}
+
+
+
+
+
+.intro
+{   width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: -10px;
+    font-weight: 600;
+    font-family:'Merriweather', serif;
+}
+
+
+
+.para
+{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-family:'Merriweather', serif;
+    color: grey;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+
+
+.inner
+{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h3
+{
+    color: WHITE;
+    font-size:50px;
+    text-align: center;
+}
+
+h4{
+    
+    color: WHITE;
+    font-size: ;
+}
+
+
+
+
+.OUTRO
+{   width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Merriweather', serif;
+}
+
+
+.social
+{
+    
+    padding: 50px;
+    color: royalblue;
+    text-align: center;
+    text-transform: uppercase;
+  background-color: white;
+width: 250px;
+height: 150px;
+  margin-bottom: 20px;
+  font-family:'Merriweather', serif;
+    box-shadow:0px 2px 5px 0px black;
+   
+    cursor: pointer;
+
+    
+}
+
+
+.inners
+
+{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+
+b{
+    color: royalblue;
+    font-style: inherit;
+    font-weight: 600px;
+}
+
+
+
+
+
+
+
+
+.events
+{
+    width: 40%;
+    float: left;
+    min-height: 300px;
+    max-height: 700px;
+    background-color: white;
+}
+
+
+
+.a
+{
+    padding-right: 120px;
+    text-align: center;
+}
+.b
+{
+padding-left: 87px;
+text-align: center;
+}
+
+
+.q
+{
+background-color: black;
+}
+
+
+.GAL
+{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding-top: 50PX;
+}
+
+
+
+.mmain
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+  .three
+{
+   width: 400px;
+   text-align: center;
+   padding-top: 15px;
+}
+.onee
+{
+    width: 200px;
+    font-size: 20PX;
+    color: WHITE;
+    padding-top: 10PX;
+}
+
+button
+{
+    padding: 8px;
+    font-size: 10px;
+}
+
+.two{
+    MAX-width: 500px;
+    min-width: 50PX;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+
+.in
+{
+    color: grey;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.END
+{
+    background-color: royalblue;
+    color: WHITE;
+    padding: 8PX;
+    text-indent: 80PX;
+}
